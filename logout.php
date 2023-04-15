@@ -1,3 +1,4 @@
+<!--The page confirming logout and clearing the session-->
 <?php 
 include 'header.php';
 session_destroy();

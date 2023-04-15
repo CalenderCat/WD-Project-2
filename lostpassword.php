@@ -1,3 +1,4 @@
+<!--The page looking for an email for lost password-->
 <?php 
 include 'header.php';
 $userInfo = $_SESSION['userInfo'];

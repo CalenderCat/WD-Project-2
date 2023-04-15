@@ -54,7 +54,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-/*The banner selectors and styles
+/*The banner selectors and styles (commented out due to not being used in this project)
 .banner {
     margin: auto;
     width: 1200px;
@@ -103,6 +103,8 @@ The selectors and styles for the main content
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 }*/
+
+/* New CSS styles for tech support pages */
 .logout {
     display: block;
     padding-top: 35px;

@@ -1,3 +1,4 @@
+<!--The page for PC not working-->
 <?php 
 include 'header.php';
 $userInfo = $_SESSION['userInfo'];

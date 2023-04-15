@@ -1,3 +1,4 @@
+<!--The page confirming that your email has been sent and for what-->
 <?php 
 include 'header.php';
 $userInfo = $_SESSION['userInfo'];

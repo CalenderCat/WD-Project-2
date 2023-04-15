@@ -1,3 +1,4 @@
+<!--The page looking for an email for new account-->
 <?php 
 include 'header.php';
 $userInfo = $_SESSION['userInfo'];

@@ -1,3 +1,4 @@
+<!--The page with no HTML, just redirects based on forms entered-->
 <?php 
 include 'header.php';
 $userInfo = $_SESSION['userInfo'];

@@ -1,3 +1,4 @@
+<!--The first page where the login process begins-->
 <?php 
 include 'header.php';
 if(count($_POST) > 0) {

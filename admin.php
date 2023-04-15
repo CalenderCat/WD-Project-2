@@ -1,3 +1,4 @@
+<!--The page an admin role sees-->
 <?php 
 include 'header.php';
 $userInfo = $_SESSION['userInfo'];

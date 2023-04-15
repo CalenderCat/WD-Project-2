@@ -1,3 +1,4 @@
+<!--The page a manager role sees-->
 <?php 
 include 'header.php';
 $userInfo = $_SESSION['userInfo'];

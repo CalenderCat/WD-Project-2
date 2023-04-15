@@ -1,3 +1,4 @@
+<!--The header page-->
 <?php
 session_start();
 ?>
