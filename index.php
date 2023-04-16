@@ -30,10 +30,10 @@ if(count($_POST) > 0) {
                     <option>Mr.</option>
                     <option>Mrs.</option>
                 </select>
-                <label for="firstname">First Name:</label>
-                <input type="text" class="<?=$fnameError?>" id="firstname" name="firstname"/>
-                <label for="lastname">Last Name:</label>
-                <input type="text" class="<?=$lnameError?>" id="lastname" name="lastname"/>
+                <label class ="labels" for="firstname">First Name:</label>
+                <input type="text" class="fields <?=$fnameError?>" id="firstname" name="firstname"/>
+                <label class="labels" for="lastname">Last Name:</label>
+                <input type="text" class="fields <?=$lnameError?>" id="lastname" name="lastname"/>
                 <select name="job">
                     <option>Admin</option>
                     <option>Manager</option>

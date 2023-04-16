@@ -203,4 +203,12 @@ a {
         font-size: 20px;
         width: 150px;
     }
+    .labels {
+        display:flex;
+        flex-direction:column;
+    }
+    .fields {
+        display:flex;
+        flex-direction:column;
+    }
 }
