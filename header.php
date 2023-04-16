@@ -27,7 +27,7 @@ session_start();
         </nav>
         <body>
             <a class="logout" href="logout.php">Log Out</a>
-            <p class="pagehead">HCaK Tech Help</P>
+            <p class="pagehead">Halifax Canoe and Kayak Tech Help</P>
         </body>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="script.js"></script>

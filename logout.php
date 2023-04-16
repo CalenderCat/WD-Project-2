@@ -2,7 +2,6 @@
 <?php 
 include 'header.php';
 session_destroy();
-header( "refresh:5; url=index.php" );
 ?>
 
 <!DOCTYPE html>
@@ -16,8 +15,7 @@ header( "refresh:5; url=index.php" );
     <body>
         <main>
             <h1>You have sucessfully logged out</h1>
-            <p>You will be redirected to the main page in 5 seconds</p>
-            <p>If not <a id="redir" href="index.php">click here</a>
+            <p>To return to the main page <a id="redir" href="index.php">click here</a>
         </main>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
