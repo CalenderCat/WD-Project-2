@@ -19,5 +19,7 @@ $userInfo = $_SESSION['userInfo'];
             <a href="notworking.php">My PC isn't working</a>
         </main>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
 </html>
 <?php include 'footer.php' ?>

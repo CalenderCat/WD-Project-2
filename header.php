@@ -29,6 +29,6 @@ session_start();
             <a class="logout" href="logout.php">Log Out</a>
             <p class="pagehead">HCaK Tech Help</P>
         </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="script.js"></script>
 </html>

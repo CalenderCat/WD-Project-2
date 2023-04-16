@@ -9,9 +9,9 @@ if(count($_POST) > 0) {
         $lnameError = "error";
     }
     if(!isset($fnameError) && !isset($lnameError)) {
-        $_SESSION['userInfo'] = $_POST;
-        header("Location: rolelookup.php");
-    }
+        $_SESSION['userInfo'] = $_POST; ?>
+        <script>window.location.href = "rolelookup.php";</script>
+    <?php }
 }
 ?>
 
@@ -20,7 +20,6 @@ if(count($_POST) > 0) {
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-        <style></style>
         <link rel="stylesheet" href="style2.css" type="text/css">
     </head>
     <body>
@@ -44,5 +43,7 @@ if(count($_POST) > 0) {
             </form>
         </main>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
 </html>
 <?php include 'footer.php' ?>

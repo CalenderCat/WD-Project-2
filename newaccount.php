@@ -4,9 +4,9 @@ include 'header.php';
 $userInfo = $_SESSION['userInfo'];
 if(isset($_POST['submit'])) {
     if($_POST['email'] != "") {
-        $_SESSION['emailType'] = "newaccount";
-        header("Location: emailsent.php");
-    }
+        $_SESSION['emailType'] = "newaccount"; ?>
+        <script>window.location.href = "emailsent.php";</script>
+    <?php }
 }
 ?>
 
@@ -27,5 +27,7 @@ if(isset($_POST['submit'])) {
                 <input class="button" type="submit" name="submit"/>
         </main>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
 </html>
 <?php include 'footer.php' ?>

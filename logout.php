@@ -20,5 +20,7 @@ header( "refresh:5; url=index.php" );
             <p>If not <a id="redir" href="index.php">click here</a>
         </main>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
 </html>
 <?php include 'footer.php' ?>

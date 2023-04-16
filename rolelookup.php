@@ -2,13 +2,13 @@
 <?php 
 include 'header.php';
 $userInfo = $_SESSION['userInfo'];
-if($userInfo['job'] == "Admin") {
-    header("Location: admin.php");
-}
-elseif($userInfo['job'] == "Manager") {
-    header("Location: manager.php");
-}
-else {
-    header("Location: CEO.php");
-}
+if($userInfo['job'] == "Admin") { ?>
+    <script>window.location.href = "admin.php";</script>
+<?php }
+elseif($userInfo['job'] == "Manager") { ?>
+    <script>window.location.href = "manager.php";</script>
+<?php }
+else { ?>
+    <script>window.location.href = "CEO.php";</script>
+<?php }
 ?>
